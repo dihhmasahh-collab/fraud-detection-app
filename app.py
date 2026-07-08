@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 from datetime import datetime
 
-st.set_page_config(page_title="Fraud Detection App", page_icon="💳", layout="centered")
+st.set_page_config(page_title="Fraud Detection App", page_icon="🛡️", layout="centered")
 
 # ------------------------------------------------------------------
 # Load model (file .pkl harus ada di folder yang sama dengan app.py)
@@ -24,7 +24,7 @@ STATES = ['AK','AL','AR','AZ','CA','CO','CT','DC','FL','GA','HI','IA','ID','IL',
           'NE','NH','NJ','NM','NV','NY','OH','OK','OR','PA','RI','SC','SD','TN',
           'TX','UT','VA','VT','WA','WI','WV','WY']
 
-st.title("💳 Deteksi Fraud Transaksi Kartu Kredit")
+st.title("🛡️ Deteksi Fraud Transaksi Kartu Kredit")
 st.write("Masukkan detail transaksi di bawah ini untuk memprediksi apakah transaksi tersebut **normal** atau **fraud**.")
 
 with st.form("fraud_form"):
