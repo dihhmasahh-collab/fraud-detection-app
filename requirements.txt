@@ -1,4 +1,4 @@
 streamlit
-pandas
-scikit-learn
-catboost
+pandas==2.2.2
+scikit-learn==1.6.1
+catboost==1.2.10
